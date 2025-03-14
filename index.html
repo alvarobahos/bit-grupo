@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formato de Expresion de Indentidad de Genero</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header text-center p-3">
+      <div class="row align-items-center">
+        <h1 class="col">Formato de Expresion de Indentidad de Genero</h1>
+      </div>
+    </header>
+
+    <div class="fondo container mt-3">
+      <form id="formSelect">
+        <div class="form-floating mb-3">
+          <input
+            class="form-control"
+            type="text"
+            id="campo-nombre"
+            placeholder="Escribe tu nombre"
+          />
+          <label class="form-label" for="campo-nombre">SoyYo</label>
+        </div>
+
+        <div class="form-group p-2">
+          <p>
+            1. Si las relaciones fueran completamente libres de expectativas
+            sociales, ¿cómo crees que influiría eso en tus elecciones afectivas?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta" id="pregunta">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                Seguiría prefiriendo parejas del sexo opuesto, pero sin sentir
+                la obligación de cumplir con estereotipos de pareja tradicional
+              </option>
+              <option value="homo">
+                Podría amar sin miedo y sin sentir la necesidad de justificar
+                mis sentimientos ante nadie.
+              </option>
+              <option value="psexu">
+                Me permitiría explorar conexiones sin que el género fuera un
+                factor determinante en mis elecciones afectivas.
+              </option>
+              <option value="queer">
+                No me preocuparía por encajar en una categoría, simplemente me
+                dejaría llevar por lo que siento en cada momento.
+              </option>
+              <option value="asexu">
+                Habría más espacio para relaciones basadas en el afecto y la
+                compañía, sin la presión de la atracción sexual.
+              </option>
+            </select>
+          </label>
+          <br />
+          <p>
+            2. Cuando alguien despierta tu interés, ¿qué es lo primero que capta
+            tu atención?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta2" id="pregunta2">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                Su forma de sonreír y la confianza que proyecta, eso me atrae de
+                inmediato.
+              </option>
+              <option value="homo">
+                El brillo en sus ojos cuando habla de algo que le apasiona, eso
+                me encanta.
+              </option>
+              <option value="psexu">
+                El brillo en sus ojos cuando habla de algo que le apasiona, eso
+                me encanta.
+              </option>
+              <option value="queer">
+                Cómo se expresa sin miedo a ser quien es, eso me resulta
+                realmente cautivador.
+              </option>
+              <option value="asexu">
+                Su inteligencia y la manera en que se comunica, eso es lo que me
+                engancha primero.
+              </option>
+            </select>
+          </label>
+          <br />
+
+          <p>3. ¿Cómo imaginas tu vida sentimental y afectiva en el futuro?</p>
+          <label>
+            <select class="form-select" name="pregunta3" id="pregunta3">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                Me veo con una pareja del sexo opuesto, construyendo una
+                relación basada en el amor y el respeto mutuo.
+              </option>
+              <option value="homo">
+                Quisiera compartir mi vida con alguien del mismo sexo, en un
+                entorno donde podamos crecer juntos sin miedo a ser quienes
+                somos.
+              </option>
+              <option value="psexu">
+                Para mí, el amor no tiene género, así que en el futuro espero
+                estar con alguien que me haga sentir pleno/a/e, sin importar su
+                identidad.
+              </option>
+              <option value="queer">
+                No me gusta encasillarme en un modelo tradicional de pareja, me
+                imagino construyendo vínculos a mi manera, con libertad y
+                autenticidad.
+              </option>
+              <option value="asexu">
+                Me visualizo en una relación basada en la conexión emocional y
+                la compañía, sin que la atracción sexual sea un factor
+                determinante.
+              </option>
+            </select>
+          </label>
+          <br />
+
+          <p>
+            4. ¿Cómo relatarías tu experiencia en el ámbito del amor y las
+            relaciones?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta4" id="pregunta4">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                He tenido relaciones con personas del sexo opuesto, algunas con
+                altibajos, pero siempre aprendiendo sobre el amor y el
+                compromiso.
+              </option>
+              <option value="homo">
+                Mi camino en el amor ha sido un proceso de autodescubrimiento,
+                encontrando personas del mismo sexo con quienes he compartido
+                momentos significativos.
+              </option>
+              <option value="psexu">
+                He experimentado conexiones con diferentes personas sin importar
+                su género, siempre priorizando la química y el entendimiento
+                mutuo.
+              </option>
+              <option value="queer">
+                Mis relaciones han sido diversas y fuera de lo convencional,
+                adaptándose a cómo me siento y evoluciono en cada etapa de mi
+                vida.
+              </option>
+              <option value="asexu">
+                Mi experiencia en el amor ha sido más emocional que física,
+                enfocándome en la compañía y el afecto sin que la atracción
+                sexual sea el centro.
+              </option>
+            </select>
+          </label>
+          <br />
+
+          <p>
+            5. ¿Qué relevancia tiene para ti la identidad de género de la
+            persona con quien formas una conexión afectiva o sentimental?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta5" id="pregunta5">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                Es importante para mí, ya que me siento atraído/a exclusivamente
+                por personas del sexo opuesto.
+              </option>
+              <option value="homo">
+                Es fundamental porque mi atracción se da únicamente hacia
+                personas de mi mismo género.
+              </option>
+              <option value="psexu">
+                El género no es un factor determinante, lo que realmente me
+                importa es la conexión y la compatibilidad.
+              </option>
+              <option value="queer">
+                No me limito a categorías tradicionales de género; lo que valoro
+                es la autenticidad y el vínculo que se forme.
+              </option>
+              <option value="asexu">
+                El género no influye demasiado para mí, ya que priorizo las
+                conexiones emocionales más que la atracción sexual.
+              </option>
+            </select>
+          </label>
+          <br />
+
+          <p>
+            6. Cuando piensas en tu infancia o adolescencia, ¿cómo descubriste y
+            viviste tus primeros sentimientos de atracción?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta6" id="pregunta6">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                Desde pequeño/a me gustaban personas del sexo opuesto, aunque al
+                principio lo veía como una amistad especial.
+              </option>
+              <option value="homo">
+                Siempre me sentí diferente porque me atraían personas de mi
+                mismo género, aunque al principio no entendía bien qué
+                significaba.
+              </option>
+              <option value="psexu">
+                Desde joven me di cuenta de que la atracción para mí no dependía
+                del género, sino de la conexión con la persona.
+              </option>
+              <option value="queer">
+                No encajaba en ninguna categoría específica, simplemente me
+                atraían personas de distintas formas sin una estructura
+                definida.
+              </option>
+              <option value="asexu">
+                Nunca sentí atracción como la que describían mis amigos, pero sí
+                valoraba profundamente las conexiones emocionales.
+              </option>
+            </select>
+          </label>
+          <br />
+          <p>
+            7. Si estuvieras en un entorno donde no existiera el juicio social,
+            ¿crees que tu manera de experimentar la atracción sería diferente?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta7" id="pregunta7">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                No creo que cambiara, ya que siempre me he sentido atraído/a por
+                personas del sexo opuesto, aunque quizás exploraría más sin
+                miedo a los estereotipos.
+              </option>
+              <option value="homo">
+                Sería más libre de expresar mi atracción sin temor al rechazo o
+                la discriminación, lo que haría mi experiencia más natural y
+                segura.
+              </option>
+              <option value="psexu">
+                No cambiaría mucho porque siempre he sentido atracción por las
+                personas más allá de su género, pero sería más fácil vivirlo sin
+                prejuicios.
+              </option>
+              <option value="queer">
+                Me sentiría más libre de explorar mis emociones sin etiquetas ni
+                presiones, dejando que mi atracción fluya de manera natural.
+              </option>
+              <option value="asexu">
+                Seguiría sintiendo la atracción de la misma manera, pero sin la
+                presión de justificarme o de encajar en expectativas románticas
+                o sexuales.
+              </option>
+            </select>
+          </label>
+          <br />
+
+          <p>
+            8. Si alguien que no esperabas te expresara su atracción, ¿cómo
+            crees que responderías?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta8" id="pregunta8">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                Me sorprendería, pero si es del sexo opuesto y hay química,
+                podría darle una oportunidad.
+              </option>
+              <option value="homo">
+                Si es alguien de mi mismo género y me atrae, me sentiría
+                halagado/a y tal vez exploraría esa conexión.
+              </option>
+              <option value="psexu">
+                No me sorprendería por su género, sino por la situación; si hay
+                interés mutuo, vería a dónde nos lleva.
+              </option>
+              <option value="queer">
+                Dependería de cómo me siento en ese momento y de la conexión que
+                tengamos, sin importar etiquetas.
+              </option>
+              <option value="asexu">
+                Me halagaría, pero aclararía mis límites desde el principio para
+                evitar confusiones sobre mi forma de sentir atracción.
+              </option>
+            </select>
+          </label>
+          <br />
+
+          <p>
+            9. ¿Qué sientes o cómo reaccionas cuando ves una escena romántica en
+            una película, serie, animacion o podcats?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta9" id="pregunta9">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                Si la pareja es hombre y mujer y la escena es bien hecha, me
+                emociona y me hace imaginar algo similar en mi vida.
+              </option>
+              <option value="homo">
+                Si es una historia de amor LGBTQ+, me conmueve porque me siento
+                representado/a; si no, a veces me cuesta conectar.
+              </option>
+              <option value="psexu">
+                Me fijo más en la química entre los personajes que en su género,
+                así que si la escena es intensa, la disfruto sin importar
+                quiénes sean.
+              </option>
+              <option value="queer">
+                Depende de cómo esté contada la historia; me gustan las escenas
+                que rompen con lo tradicional y muestran el amor de formas
+                diversas.
+              </option>
+              <option value="asexu">
+                A veces me parecen bonitas, pero otras me resultan irrelevantes
+                o exageradas porque no conecto con la idea del romance de la
+                misma forma.
+              </option>
+            </select>
+          </label>
+          <br />
+
+          <p>
+            10. Piensa en la última vez que alguien llamó tu atención. ¿En qué
+            contexto ocurrió?
+          </p>
+          <label>
+            <select class="form-select" name="pregunta10" id="pregunta10">
+              <option disabled selected value>Selecciona una respuesta</option>
+              <option value="htero">
+                Fue en un lugar, vi a una persona del sexo opuesto sonriendo
+                mientras leía, y su energía me atrapó de inmediato.
+              </option>
+              <option value="homo">
+                Ocurrió en un lugar, cuando alguien de mi mismo género me ayudó
+                con una solicitud y me di cuenta de lo carismático/a que era.
+              </option>
+              <option value="psexu">
+                Estaba en una reunión y alguien hizo un comentario muy
+                inteligente; su manera de expresarse fue lo que me atrajo, sin
+                importar su género
+              </option>
+              <option value="queer">
+                Fue en un evento, donde alguien se expresaba con tanta
+                autenticidad que no pude evitar sentirme fascinado/a/e.
+              </option>
+              <option value="asexu">
+                n una conversación profunda con alguien, me di cuenta de lo
+                interesante y genuina que era esa persona, aunque no sentí
+                atracción física.
+              </option>
+            </select>
+          </label>
+          <br />
+
+          <br />
+        </div>
+
+        <div class="form-group mb-3">
+          <div>
+            <input
+              type="text"
+              class="form-control"
+              name="cometario"
+              id="comentario"
+              placeholder="Expresate..."
+            />
+          </div>
+        </div>
+        <div class="d-grid gap-2">
+          <input type="submit" class="btn btn-primary" value="Procesar" />
+        </div>
+      </form>
+    </div>
+
+    <footer class="footer container-fluid text-center text-white bg-dark py-3">
+      <div class="row">
+        <div class="col">
+          <h2>&copy; 2025</h2>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
